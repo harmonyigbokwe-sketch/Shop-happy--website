@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHOP HAPPY | Life Packs</title>
+<style>
+body { margin:0; font-family: 'Poppins', sans-serif; background-color:#fff; color:#333; }
+header { background: linear-gradient(to right, #ffb6d9, #ffd700); padding:20px; text-align:center; color:white; }
+header h1 { margin:0; font-size:2.5rem; }
+nav { background-color:#fff0f5; text-align:center; padding:10px; }
+nav a { text-decoration:none; margin:0 15px; color:#d63384; font-weight:bold; }
+section { padding:40px 20px; text-align:center; }
+.pack-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:20px; }
+.pack { background:#fff; border:2px solid #ffd700; border-radius:12px; padding:20px; }
+button { background-color:#d63384; color:white; padding:10px 20px; border:none; border-radius:25px; cursor:pointer; }
+button:hover { background-color:#c2185b; }
+form { max-width:400px; margin:auto; }
+input, textarea { width:100%; padding:10px; margin:10px 0; border-radius:8px; border:1px solid #ccc; }
+footer { background-color:#fff0f5; padding:20px; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+<h1>SHOP HAPPY</h1>
+<p>Online store providing convenience with Life Packs.</p>
+</header>
+<nav>
+<a href="#packs">Life Packs</a>
+<a href="#hkmedia">HK Media</a>
+<a href="#order">Order</a>
+</nav>
+<section id="packs">
+<h2>Our Life Packs</h2>
+<div class="pack-grid">
+<div class="pack"><h3>Period Packs</h3><p>Comfort & essentials delivered stress-free.</p></div>
+<div class="pack"><h3>Gift Packs</h3><p>Perfect curated gifts for every occasion.</p></div>
+<div class="pack"><h3>Party Souvenirs</h3><p>Beautifully packaged party memories.</p></div>
+<div class="pack"><h3>Student / Study Packs</h3><p>Everything you need in one convenient bundle.</p></div>
+</div>
+<a href="https://paystack.com/pay/YOUR-PAYMENT-LINK-HERE" target="_blank"><button>Pay Now</button></a>
+</section>
+<section id="hkmedia" style="background:#fffafc;">
+<h2>HK Media</h2>
+<p>Our sister brand specializing in professional videography & media coverage.</p>
+<button onclick="alert('HK Media Booking Coming Soon')">Book HK Media</button>
+</section>
+<section id="order">
+<h2>Place an Order</h2>
+<form action="https://formsubmit.co/harmonyigbokwe@gmail.com" method="POST">
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Order Details" placeholder="Tell us the pack you want & details..." required></textarea>
+<button type="submit">Submit Order</button>
+</form>
+</section>
+<footer>
+<p>© 2026 SHOP HAPPY | Pink • Gold • White Luxury</p>
+</footer>
+</body>
+  </html>
